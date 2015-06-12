@@ -1,7 +1,7 @@
 package DDG::Spice::Melpa;
 # ABSTRACT: Returns package information from melpa package manager's registry.
 
-use DDG::Spice
+use DDG::Spice;
 
 triggers startend => 'melpa';
 
