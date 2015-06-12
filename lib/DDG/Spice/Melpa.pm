@@ -9,6 +9,13 @@ spice to => 'http://melpa.org/recipes.json';
 
 spice wrap_jsonp_callback => 1;
 
+handle remainder => sub {
+    return $_ if $_;
+    return;
+};
+
+1;
+
 
 
 
